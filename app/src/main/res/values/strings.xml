@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Hvh Helper</string>
+
+    <string name="b_exam">Экзамен</string>
+    <string name="b_oneway">Ванвеи</string>
+    <string name="b_aboutCheats">Все о читах</string>
+    <string name="b_cheatForums">Форумы о читах</string>
+    <string name="b_bignames">Бигнеймы</string>
 </resources>

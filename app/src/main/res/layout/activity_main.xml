@@ -4,4 +4,63 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"/>
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="185dp"
+        android:layout_height="269dp"
+        android:layout_marginStart="122dp"
+        android:layout_marginEnd="122dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.879">
+
+        <Button
+            android:id="@+id/button_exam"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:text="@string/b_exam" />
+
+        <Button
+            android:id="@+id/button_oneways"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/b_oneway" />
+
+        <Button
+            android:id="@+id/button_aboutCheats"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/b_aboutCheats" />
+
+        <Button
+            android:id="@+id/button_Forums"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/b_cheatForums" />
+
+        <Button
+            android:id="@+id/button_bignames"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/b_bignames" />
+        <![CDATA[
+
+    242dp"
+        android:layout_height="219dp"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="64dp">
+
+
+
+    ]]>
+</LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
