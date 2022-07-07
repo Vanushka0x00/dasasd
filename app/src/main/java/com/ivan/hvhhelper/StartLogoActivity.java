@@ -24,7 +24,7 @@ public class StartLogoActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         }.start();
-
+        finish(); // remove back to startlogo from back button on telephone
 
 
 
