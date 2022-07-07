@@ -22,9 +22,11 @@ public class StartLogoActivity extends AppCompatActivity {
             @Override
             public void onFinish(){
                 startActivity(intent);
+                finish();   // remove back to startlogo from back button on telephone
+
             }
         }.start();
-        finish(); // remove back to startlogo from back button on telephone
+
 
 
 
