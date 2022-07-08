@@ -10,7 +10,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HvhHelper">
         <activity
-            android:name=".ExamActivity"
+            android:name=".Bignames.BignamesActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Forums.ForumsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AboutCheat.AboutCheatsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".OneWays.OneWaysActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Exam.ExamActivity"
             android:exported="true" />
         <activity
             android:name=".MainActivity"
